@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="ChromeTest2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.grid.GridWithThreadLocal">
+        <methods>
+          <include name="searchGoogle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.grid.GridWithThreadLocal -->
+    </classes>
+  </test> <!-- ChromeTest2(failed) -->
+  <test thread-count="5" parallel="tests" name="ChromeTest1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.grid.GridWithThreadLocal">
+        <methods>
+          <include name="searchGoogle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.grid.GridWithThreadLocal -->
+    </classes>
+  </test> <!-- ChromeTest1(failed) -->
+  <test thread-count="5" parallel="tests" name="firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.test.grid.GridWithThreadLocal">
+        <methods>
+          <include name="searchGoogle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.grid.GridWithThreadLocal -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

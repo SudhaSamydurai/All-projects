@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-04T02:02:02 IST" name="Suite" finished-at="2021-06-04T02:03:13 IST" duration-ms="71354">
+    <groups>
+    </groups>
+    <test started-at="2021-06-04T02:02:02 IST" name="ChromeTest1" finished-at="2021-06-04T02:02:49 IST" duration-ms="47670">
+      <class name="Test.GmailTest">
+        <test-method signature="openGmail(java.lang.String)[pri:0, instance:Test.GmailTest@74455848]" started-at="2021-06-04T02:02:02 IST" name="openGmail" finished-at="2021-06-04T02:02:16 IST" duration-ms="13983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGmail -->
+      </class> <!-- Test.GmailTest -->
+      <class name="com.test.grid.GridWithThreadLocal">
+        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:com.test.grid.GridWithThreadLocal@b62d79]" started-at="2021-06-04T02:02:16 IST" name="searchGoogle" finished-at="2021-06-04T02:02:49 IST" duration-ms="33649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+      </class> <!-- com.test.grid.GridWithThreadLocal -->
+    </test> <!-- ChromeTest1 -->
+    <test started-at="2021-06-04T02:02:02 IST" name="ChromeTest2" finished-at="2021-06-04T02:02:51 IST" duration-ms="49944">
+      <class name="Test.GmailTest">
+        <test-method signature="openGmail(java.lang.String)[pri:0, instance:Test.GmailTest@4efc180e]" started-at="2021-06-04T02:02:02 IST" name="openGmail" finished-at="2021-06-04T02:02:17 IST" duration-ms="15129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGmail -->
+      </class> <!-- Test.GmailTest -->
+      <class name="com.test.grid.GridWithThreadLocal">
+        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:com.test.grid.GridWithThreadLocal@bd4dc25]" started-at="2021-06-04T02:02:17 IST" name="searchGoogle" finished-at="2021-06-04T02:02:51 IST" duration-ms="34783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+      </class> <!-- com.test.grid.GridWithThreadLocal -->
+    </test> <!-- ChromeTest2 -->
+    <test started-at="2021-06-04T02:02:02 IST" name="firefox" finished-at="2021-06-04T02:03:13 IST" duration-ms="71354">
+      <class name="Test.GmailTest">
+        <test-method signature="openGmail(java.lang.String)[pri:0, instance:Test.GmailTest@71def8f8]" started-at="2021-06-04T02:02:02 IST" name="openGmail" finished-at="2021-06-04T02:02:44 IST" duration-ms="42899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGmail -->
+      </class> <!-- Test.GmailTest -->
+      <class name="com.test.grid.GridWithThreadLocal">
+        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:com.test.grid.GridWithThreadLocal@383bfa16]" started-at="2021-06-04T02:02:44 IST" name="searchGoogle" finished-at="2021-06-04T02:03:13 IST" duration-ms="28418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+      </class> <!-- com.test.grid.GridWithThreadLocal -->
+    </test> <!-- firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

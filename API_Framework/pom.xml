@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sudha.learn.api</groupId>
+  <artifactId>com.sudha.learn.api</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+   <dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.12.3</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.3.3</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20210307</version>
+</dependency>
+
+  
+  </dependencies>
+
+</project>

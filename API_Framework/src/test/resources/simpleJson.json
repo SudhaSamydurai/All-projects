@@ -1,0 +1,10 @@
+{
+"email" : "mailtosudhasamydurai@gmail.com",
+"firstName" : "sudha",
+"lastName" : "samydurai",
+"age" : "31",
+"address" : {
+ "state" : "Telengana",
+ "city" : "Hyderabad"
+}
+}
